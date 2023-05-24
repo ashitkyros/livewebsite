@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Blgd from "./Container/Blgd";
+import Aboutus from "./Container/Aboutus";
+import Product from "./Container/Product";
+import Footer from "./Container/Footer";
+import Blog from "./Container/Blog";
+// import Proces from "./Container/Proces";
+// import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+     return (
+          <>
+               {/* <Blgd /> */}
+               {/* <Aboutus /> */}
+               {/* <Product /> */}
+               <Blog />
+          </>
+     );
 }
 
 export default App;

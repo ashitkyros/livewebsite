@@ -1,0 +1,235 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+}
+
+.firstblog {
+	/* background-image: url(../imges/firstBlog.jpg); */
+	width: 100%;
+	height: 100vh !important;
+	background-size: cover;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	/* display: none ; */
+}
+
+:root {
+	--main-font-family: "Prumo Deck";
+	--body-font-family: "IBM Plex Sans";
+}
+
+.carousel-inner {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.carousel-inner {
+	padding-top: 43.25%;
+	display: block;
+	content: "";
+}
+
+.carousel-item {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: skyblue;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 60%;
+	z-index: 9;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.caption h1 {
+	color: #fff;
+	font-size: 52px;
+	font-weight: 700;
+	margin-bottom: 23px;
+}
+
+.caption h2 {
+	color: rgba(255, 255, 255, .75);
+	font-size: 26px;
+	font-weight: 300;
+}
+
+a.big-button {
+	color: #fff;
+	font-size: 19px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #eb7a00;
+	background: rgba(255, 0, 0, 0.75);
+	padding: 28px 35px;
+	border-radius: 3px;
+	margin-top: 80px;
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+a.big-button:hover {
+	text-decoration: none;
+	background: rgba(255, 0, 0, 0.9);
+}
+
+a.view-demo {
+	color: #fff;
+	font-size: 21px;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 35px;
+}
+
+a.view-demo:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+.carousel-indicators .active {
+	background: #fff;
+}
+
+.carousel-indicators li {
+	background: rgba(255, 255, 255, 0.4);
+	border-top: 20px solid;
+	z-index: 15;
+}
+
+
+.main-title {
+	margin-top: 10%;
+}
+
+.first-blog-img-sec {
+	background-image: url(../imges/the-cut-or-clarity-factor-which-matters-most-for-lab-grown-diamonds.jpg);
+	max-width: 100% !important;
+	background-size: cover;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-position: center;
+	height: 300px;
+	background-color: #333;
+}
+
+.first-blog-img-sec1 {
+	max-width: 100% !important;
+	height: 300px;
+	background-color: #024638;
+}
+
+.first-blog-area {
+	height: 600px;
+}
+
+.quotes-bg {
+	width: 100%;
+	height: 1200px;
+	background-color: #024638;
+}
+
+.inner-blog-title {
+	font-family: var(--body-font-family);
+	font-size: 20px;
+	font-weight: 400;
+	padding: 3% 3% 2%;
+	color: #fff;
+}
+
+.inner-blog-date {
+	font-family: var(--body-font-family);
+	font-size: 12px;
+	font-weight: 400;
+	padding: 0% 3%;
+	color: #fff;
+}
+
+.inner-blog-descreption {
+	padding: 7% 3% 0%;
+	font-size: 12px;
+	font-weight: 400;
+	/* padding: 0% 3%; */
+	color: #fff;
+}
+.inner-blog-btn{
+	margin: 7% 3% 0%;
+	border: 0px;
+	width: 30%;
+	height: 9%;
+	background-color: #A4C89A;
+	color: #024638;
+	font-family: var(--body-font-family);
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.container {
+	max-width: 1300px !important;
+
+}
+.inner-blog-title-second{
+	font-family: var(--body-font-family);
+	font-size: 20px;
+	font-weight: 400;
+	padding: 3% 3% 5%;
+	color: #fff;
+}
+
+.second-blog-img-sec {
+	background-image: url(../imges/revolution-of-the-lab-grown-diamond-in-modern-times.jpg);
+	max-width: 100% !important;
+	background-size: cover;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-position: center;
+	height: 300px;
+	background-color: #333;
+}
+
+.second-blog-img-sec1 {
+	max-width: 100% !important;
+	height: 300px;
+	background-color: #024638;
+}
+
+.second-blog-area {
+	height: 600px;
+}
+.main-quotes{
+	font-family: var(--body-font-family);
+	color: #fff;
+	font-size: 36px;
+	font-weight: 400;
+	padding: 0% 5%;
+	text-align: justify;
+}
+.quotes1{
+	font-size: 64px;
+	font-family: var(--body-font-family);
+	color: white;
+}
+.quotes2{
+	font-size: 64px;
+	font-family: var(--body-font-family);
+}
